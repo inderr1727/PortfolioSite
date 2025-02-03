@@ -55,7 +55,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1E3A66;
+  color: #0a254b;
   transition: color 0.3s ease;
 }
 
@@ -111,12 +111,12 @@ nav {
 .nav-contact-button {
   padding: 0.35rem 1.675rem; /* converted rem values */
   border-radius: 2rem;
-  border: 0.2rem solid #1E3A66;
+  border: 0.2rem solid #0a254b;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-contact-button:hover {
-  background-color: #1E3A66;
+  background-color: #0a254b;
   color: white;
 }
 
@@ -159,13 +159,13 @@ nav {
   font-style: normal;
   letter-spacing: 0.04rem;
   line-height: 3.2rem; /* converted rem values */
-  margin-top: -3.2rem; /* converted rem values */
-  margin-bottom: 2.56rem; /* converted rem values */
-  color: #041f4e;
+  margin-top: 1.4rem; /* converted rem values */
+  margin-bottom: 2.8rem; /* converted rem values */
+  color: #0a254b;
 }
 
 .hero h1 {
-  font-size: 4rem; /* converted rem values */
+  font-size: 4.1rem; /* converted rem values */
   font-family: var(--font-ptserif);
   font-optical-sizing: auto;
   font-weight: 500;
@@ -177,22 +177,23 @@ nav {
 }
 
 .hero p {
-  font-size: 1.72rem; /* converted rem values */
+  font-size: 1.76rem; /* converted rem values */
   font-family: var(--font-varela), var(--font-Libre);
   font-weight: 300;
   letter-spacing: 0.02rem;
   word-spacing: 0.16rem;
   margin-bottom: 4.8rem; /* converted rem values */
-  max-width: 54.4rem; /* converted rem values */
-  color: #041f4e;
+  max-width: 52rem; /* converted rem values */
+  color: #0a254b;
 }
 
 .contact-button {
   display: inline-block; /* Make it act like a link */
+  margin-right: 4rem;
   padding: 0.6rem 4rem; /* converted rem values */
-  background-color: #1E3A66;
+  background-color: #0a254b;
   color: #fff;
-  border: 0.3rem solid #1E3A66;
+  border: 0.3rem solid #0a254b;
   border-radius: 2.5rem;
   letter-spacing: 0.16rem;
   font-size: 1.46rem;
@@ -208,10 +209,46 @@ nav {
   color: #0a254b;
 }
 
+.hero-line {
+  width: 99.4%; /* converted rem values */
+  height: 0.26rem;
+  background-color: #0a254b;
+  margin-top: 5.4rem;
+  margin-bottom: 0rem;
+  border-radius: 0.3rem;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3.1rem; /* Space between icons */
+  margin-left: 2.4rem; /* Space between button and icons */
+  align-items: center;
+}
+
+.social-icons img {
+  width: 34px;  /* Adjust size as needed */
+  height: 34px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+
+
+
 .image-placeholder {
-  width: 330px; /* Fixed width */
-  height: 330px; /* Fixed height */
-  margin-right: 3rem;
+  width: 350px; /* Fixed width */
+  height: 350px; /* Fixed height */
+  margin-top: 6rem;
+  margin-right: 4.0rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,8 +257,8 @@ nav {
 
 
 .image-placeholder img {
-  width: 330px; /* Fixed width */
-  height: 330px; /* Fixed height */
+  width: 350px; /* Fixed width */
+  height: 350px; /* Fixed height */
   object-fit: cover; /* Ensures it maintains aspect ratio and fills the space */
   display: block;
 }
@@ -235,12 +272,13 @@ nav {
 }
 
 .section-heading h2 {
-  font-size: 2.4rem; /* converted rem values */
-  font-family: var(--font-Libre);
-  color: var(--colour-dark);
-  margin-top: -3.2rem; /* converted rem values */
-  margin-bottom: 5.12rem; /* converted rem values */ /* Increased margin */
-  text-align: left;
+  font-size: 2.8rem; /* converted rem values */
+  font-family: Font-Mandrel , var(--font-ptserif) ;
+  font-weight: 500;
+  color: #02172b;
+  margin-top: -3rem; /* converted rem values */
+  margin-bottom: 5.6rem; /* converted rem values */ /* Increased margin */
+  text-align: centre;
 }
 
 .grid-container {
@@ -263,20 +301,28 @@ nav {
 }
 
 .card:hover {
-  transform: scale(1.03); /* Less dramatic scaling */
+  transform: scale(1.03) ; /* Less dramatic scaling */
   box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15); /* More pronounced shadow on hover*/
+  background-color: #0a254b;
+  color: #ffffff;
+  .line {
+    background-color: #ffffff;
+  }
+  .inner-card a {
+    color: #ffffff;
+  }
 }
 
 .line {
   width: 4rem; /* converted rem values */
   height: 0.2rem;
-  background-color: #1E3A66;
+  background-color: #0a254b;
   margin-bottom: 2.24rem; /* converted rem values */
   border-radius: 0.3rem;
 }
 
 .card h3 {
-  font-size: 2.5rem; /* converted rem values */
+  font-size: 2.4rem; /* converted rem values */
   font-family: Font-Mandrel;
   font-weight: 500;
   color: var(--colour-dark);
@@ -292,28 +338,30 @@ nav {
   margin-bottom: 2.24rem; /* converted rem values */
 }
 
-
+/* 
 .inner-card a {
   font-size: 1.54rem;
   font-family: var(--font-ptbold);
 }
+*/
 
 .cta-button {
   display: inline-block;
   margin-top: 6.4rem; /* converted rem values */
-  background-color: #1E3A66;
+  background-color: #0a254b;
   color: white;
   font-size: 1.6rem; /* converted rem values */
-  padding: 0.96rem 3.2rem; /* converted rem values */
-  border: none;
+  padding: 0.72rem 3.2rem; /* converted rem values */
+  border: 0.3rem solid;
   border-radius: 2rem;
   cursor: pointer;
   box-shadow: 0 0.4rem 1rem rgba(30, 58, 102, 0.2); /* More visible shadow */
-  transition: background-color 0.3s ease;
+  transition: background-color 0.04s ease;
 }
 
 .cta-button:hover {
-  background-color: #0a254b; /* Darker blue */
+  background-color: #f8fbff; /* Darker blue */
+  color: #0a254b;
 }
 
 /* About Me Section Styles */
@@ -381,21 +429,25 @@ nav {
   font-size: 1.6rem;
   color: #C0CFD9;
   line-height: 1.6;
-  margin-bottom: 2.5rem; /* Adjusted margin-bottom for better spacing */
+  margin-bottom: 3.6rem; /* Adjusted margin-bottom for better spacing */
 }
 
 .more-link {
   font-size: 1.4rem;
   font-weight: 500;
-  color: #5A9FE9;
+  color: #ffffff;
+  border: white solid;
+  padding: 0.4rem 1.6rem; 
   text-decoration: none; /*removes default underline from anchor tag */
-  border-bottom: 0.1rem solid transparent; /*sets up for hover effect*/
+  /* border-bottom: 0.1rem solid transparent; sets up for hover effect */
   transition: border-color 0.3s ease, color 0.3s ease;
 }
 
 .more-link:hover {
-  color: #78B8FF;
-  border-color: #5A9FE9; /*underline on hover*/
+  color: #0a254b;
+  background-color: #ffffff;
+  font-weight: 600;
+  border-color: #0a254b; /*underline on hover*/
 }
 
 /* FAQ Section Styles */
@@ -642,14 +694,38 @@ nav {
 
 
 @media screen and (max-width: 600px) {
+
+
+  .contact-icon {
+    display: inline;
+      gap: 3.2rem;
+
+  }
+
+
+  .contact-button {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .social-icons {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-bottom: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+}
 
 
 /* Small mobile screens */
 @media screen and (max-width: 480px) {
   .logo {
-    font-size: 1.92rem; /* converted rem values */
+    font-size: 1.68rem; /* converted rem values */
     margin-left: -0.96rem; /* converted rem values */
   }
 
@@ -660,15 +736,23 @@ nav {
   }
 
   .hero h1 {
-    font-size: 2.88rem; /* converted rem values */
-    line-height: 4.32rem;
-    margin-top: 4.28rem; /* converted rem values */
-    margin-bottom: 2.4rem; /* converted rem values */
+    font-size: 3.2rem; /* converted rem values */
+    max-width: 86%;
+    margin: auto;
+    line-height: 4.6rem;
+    margin-top: 6rem; /* converted rem values */
+    margin-bottom: 3rem; /* converted rem values */
   }
 
   .hero p {
+    max-width: 84%;
+    margin: auto;
     font-size: 1.7rem; /* converted rem values */
-    margin-bottom: 3rem; /* converted rem values */
+    margin-bottom: 4.6rem; /* converted rem values */
+  }
+
+  .hero-line {
+    margin-bottom: 3.6rem;
   }
 
   .image-placeholder {
@@ -692,8 +776,8 @@ nav {
   
 
   .section-heading h2 {
-    margin-top: -3.2rem;
-    margin-bottom: 4.4rem;
+    margin-top: -3rem;
+    margin-bottom: 6.4rem;
   }
 
   .grid-container {
@@ -769,7 +853,14 @@ nav {
     margin-top: 1.8rem; /* Adjusted margin-top */
     line-height: 2.6rem;
   }
-}
+
+ }
+
+  /* .hero-line {
+     display: none;
+  } */
+
+
 
 
 
