@@ -93,12 +93,12 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: 6.4rem; /* converted rem values */
+  margin-right: 8.4rem; /* converted rem values */
 }
 
 .nav-links li {
   margin-left: -2.24rem; /* converted rem values */
-  margin-right: 6.4rem; /* converted rem values */
+  margin-right: 6rem; /* converted rem values */
   margin-top: 0.3rem;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -135,7 +135,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3.2rem 6.4rem;
+  padding: 4rem 6.4rem;
   background: linear-gradient(to bottom, #F8F9FF, #FFFFFF);
   height: auto; /* Allow it to grow */
   max-height: none; /* Remove any restriction on height */
@@ -247,8 +247,8 @@ nav {
 .image-placeholder {
   width: 350px; /* Fixed width */
   height: 350px; /* Fixed height */
-  margin-top: 6rem;
-  margin-right: 4.0rem;
+  margin-top: 7.2rem;
+  margin-right: 5.00001rem;
   display: flex;
   align-items: center;
   justify-content: center;
